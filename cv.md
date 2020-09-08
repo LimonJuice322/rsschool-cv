@@ -4,7 +4,10 @@
    * Telegram: lj322
    * Email: general00760@gmail.com
    
-3. I want to learn to create modern applications useful for people and business. I'm techie, it is interesting for me.
+3. I want to learn to create modern applications useful for people and business. I'm techie, it is interesting for me. 
+   Nowadays, web development is one of the generals branches of IT industry. The Internet is more popular than 20 year before.
+   Every day everyone uses the Internet for their tasks (study, work, chat etc.). I want to create applications and interfaces for this people, 
+   because the frontend it is the first that user can see and use. It is the "face" of product.
    
    I read and learn articles, blogs and docs about frontend development, watch some guides and videos. 
    Also, I consolidate my knowledge with practice (you can find some small apps in my GitHub profile). 
