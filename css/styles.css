@@ -1,0 +1,199 @@
+:root {
+  --basic-white: #ffffff;
+  --basic-orange: #FF9840;
+  --basic-sand: #BF7230;
+  --basic-blue: #6C8AD5;
+  --basic-blue-dark: #466FD5;
+  --basic-black: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.resume {
+  margin: 0 auto;
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume__header {
+  color: var(--basic-blue);
+  text-align: center;
+}
+
+.resume__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resume__item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.resume__contacts,
+.resume__skills {
+  margin-left: 20px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.number {
+  position: relative;
+  padding-left: 19px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.number::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  left: 0px;
+  top: 0;
+  background-color: var(--basic-blue);
+}
+
+.name {
+  margin-left: 20px;
+  padding-top: 10px;
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.contacts {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+.contacts__item {
+  padding-bottom: 5px;
+}
+
+.contacts__ref {
+  position: relative;
+  text-align: center;
+  display: block;
+  width: 300px;
+  color: var(--basic-blue);
+  padding: 10px;
+  border: 2px solid var(--basic-blue);
+  border-radius: 3px;
+}
+
+.contacts__ref:hover,
+.contacts__ref:focus {
+  color: var(--basic-white);
+  background-color: var(--basic-blue);
+}
+
+.contacts__ref:active {
+  background-color: var(--basic-blue-dark);
+}
+
+.contacts__email-icon {
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  width: 30px;
+  width: 30px;
+  background-color: var(--basic-white);
+  fill: var(--basic-blue);
+}
+
+.contacts__ref:hover .contacts__email-icon,
+.contacts__ref:focus .contacts__email-icon {
+  fill: var(--basic-white);
+  background-color: var(--basic-blue);
+}
+
+.contacts__ref:active .contacts__email-icon {
+  background-color: var(--basic-blue-dark);
+}
+
+.contacts__telegram-icon {
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  width: 30px;
+  width: 30px;
+  background-color: var(--basic-blue);
+}
+
+.contacts__telegram-icon path {
+  fill: var(--basic-white);
+}
+
+.contacts__ref:hover .contacts__telegram-icon,
+.contacts__ref:focus .contacts__telegram-icon {
+  background-color: var(--basic-white);
+}
+
+.contacts__ref:hover .contacts__telegram-icon path,
+.contacts__ref:focus .contacts__telegram-icon path {
+  fill: var(--basic-blue);
+}
+
+.contacts__ref:active .contacts__telegram-icon path {
+  fill: var(--basic-blue-dark);
+}
+
+.paragraph {
+  margin-left: 20px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.paragraph--border {
+  border-bottom: 3px solid var(--basic-blue);
+}
+
+.skills {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  list-style: none;
+  display: flex;
+}
+
+.skills__item {
+  text-align: center;
+  position: relative;
+  width: 150px;
+  padding: 5px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  width: 100px;
+  height: 100px;
+}
