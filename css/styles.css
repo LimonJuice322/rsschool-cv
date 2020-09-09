@@ -5,6 +5,8 @@
   --basic-blue: #6C8AD5;
   --basic-blue-dark: #466FD5;
   --basic-black: #000000;
+
+  --black-light: rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -196,4 +198,51 @@ a {
   padding-bottom: 5px;
   width: 100px;
   height: 100px;
+}
+
+.portfolio {
+  list-style: none;
+  display: flex;
+}
+
+.portfolio__item {
+  margin-right: 30px;
+}
+
+.portfolio__ref {
+  display: block;
+  width: 250px;
+  min-height: 300px;
+  border: 2px solid var(--basic-blue);
+  border-radius: 5px;
+}
+
+.portfolio__ref:hover,
+.portfolio__ref:focus {
+  animation: enlarge 0.5s forwards;
+}
+
+.portfolio__ref--loop {
+  background-image: url("../img/project-loop.png");
+  background-size: 380px 900px;
+  background-position: -70px 0;
+  background-repeat: no-repeat;
+}
+
+.portfolio__ref--technomart {
+  background-image: url("../img/project-technomart.png");
+  background-size: 300px 800px;
+  background-position: -25px 0;
+  background-repeat: no-repeat;
+}
+
+@keyframes enlarge {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+  100% {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px -5px var(--black-light);
+  }
 }
