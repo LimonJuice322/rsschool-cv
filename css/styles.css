@@ -1,6 +1,6 @@
 :root {
   --basic-white: #ffffff;
-  --basic-orange: #FF9840;
+  --basic-red-light: #FF4C4C;
   --basic-sand: #BF7230;
   --basic-blue: #6C8AD5;
   --basic-blue-dark: #466FD5;
@@ -38,6 +38,15 @@ a {
 .resume__header {
   color: var(--basic-blue);
   text-align: center;
+}
+
+.resume__photo {
+  display: block;
+  margin-top: 10px;
+  padding-left: 20px;
+  width: 300px;
+  height: 300px;
+  padding-bottom: 45px;
 }
 
 .resume__list {
@@ -78,7 +87,6 @@ a {
 }
 
 .name {
-  margin-left: 20px;
   padding-top: 10px;
   display: block;
   font-size: 24px;
@@ -307,6 +315,43 @@ a {
   border: 1px solid var(--basic-blue-dark);
   color: var(--basic-white);
   background-color: var(--basic-blue-dark);
+}
+
+.study {
+  list-style: none;
+  padding: 0;
+  padding-left: 25px;
+  margin: 0;
+}
+
+.study__item {
+  position: relative;
+  padding-bottom: 10px;
+  padding-left: 35px;
+}
+
+.study__item::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  left: 0;
+  top: 7px;
+  background-color: var(--basic-red-light);
+}
+
+.study__link {
+  color: var(--basic-blue);
+}
+
+.study__link:hover,
+.study__link:focus {
+  color: var(--basic-blue-dark);
+  border-bottom: 2px solid var(--basic-blue-dark);
+}
+
+.study__link:active {
+  opacity: 0.5;
 }
 
 @keyframes enlarge {
