@@ -12,12 +12,11 @@
    I read and learn articles, blogs and docs about frontend development, watch some guides and videos.
    Also, I consolidate my knowledge with practice (you can find some small apps in my GitHub profile).
    But that's not enough for me. I'm going to start my career in frontend development.
-   So I want to take experience of work with real developers, with people, who can shows the real commercial development or more close one.
-   I want to take best practices, which help me with my goals and wishes.   
+   So I want to take experience of work with real developers, with people, who can shows the real commercial development or more close one. I want to take best practices, which help me with my goals and wishes.   
 
 4. Skills:
     * **HTML**
-    * **CSS** 
+    * **CSS**
     * **JS (ES6+)**
     * **Git**
     * **Gulp**
