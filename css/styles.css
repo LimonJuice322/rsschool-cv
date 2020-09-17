@@ -286,6 +286,13 @@ a {
   background-repeat: no-repeat;
 }
 
+.portfolio__ref--sedona {
+  background-image: url("../img/project-sedona.png");
+  background-size: 300px 600px;
+  background-position: -25px 0;
+  background-repeat: no-repeat;
+}
+
 .portfolio__label {
   display: block;
   box-sizing: border-box;
