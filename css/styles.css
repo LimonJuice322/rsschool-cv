@@ -41,6 +41,7 @@ a {
 }
 
 .resume__photo {
+  margin: 0;
   display: block;
   margin-top: 10px;
   padding-left: 20px;
